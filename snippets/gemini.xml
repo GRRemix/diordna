@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="gr"
+			fetch="https://github.com/"
+			revision="nougat"
+			sync-c="true"
+			sync-f="true"
+			sync-j="8" />
+
+	<remote name="acol"
+			fetch="https://github.com/"
+			revision="remix-nougat"
+			sync-c="true"
+			sync-f="true"
+			sync-j="8" />
+
+	<project path="android" name="GRRemix/diordna" remote="gr" />
+
+  	<!-- DEVICE, KERNEL & PROPRIETARY -->
+	<project path="device/xiaomi/gemini" name="ACollect/diordna_ecived_imoaix_inimeg" remote="acol" />
+	<project path="device/xiaomi/msm8996-common" name="ACollect/diordna_ecived_imoaix_6998msm-nommoc" remote="acol" />
+	<project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" remote="github" revision="cm-14.1" />
+	<project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" clone-depth="1" />
+
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
+	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
+	<project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
+</manifest>
