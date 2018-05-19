@@ -9,7 +9,7 @@
            sync-f="true" 
            clone-depth="1" />
 
-  <project path="manifest" name="uber-manifest" />
+  <!-- <project path="manifest" name="uber-manifest" /> -->
   <project path="binutils/binutils-uber" name="binutils" revision="2.25" />
   <project path="build" name="uber-build" />
   <project path="cloog/cloog-uber" name="cloog" revision="uber" />
