@@ -576,5 +576,5 @@
 
 	<include name="snippets/gemini.xml" />
 	<include name="snippets/rremix.xml" />
-	<include name="snippets/los.xml" /> 
+	<include name="snippets/los.xml" />
 </manifest>
