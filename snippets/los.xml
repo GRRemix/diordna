@@ -40,7 +40,7 @@
 	<project path="external/flac" name="LineageOS/android_external_flac" groups="pdk" remote="los" />
 	<project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk" remote="los" />
 	<project path="external/fuse" name="LineageOS/android_external_fuse" remote="los" />
-	<project path="external/gello-build" name="LineageOS/android_external_gello_build" remote="los" />
+	<!-- <project path="external/gello-build" name="LineageOS/android_external_gello_build" remote="los" /> -->
 	<project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="los" />
 	<project path="external/gson" name="LineageOS/android_external_gson" remote="los" />
 	<project path="external/htop" name="LineageOS/android_external_htop" remote="los" />
@@ -185,7 +185,7 @@
 	<!-- <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" remote="los" /> -->
 	<project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" remote="los" />
 	<project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="los" />
-	<project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="los" />
+	<!-- <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="los" /> -->
 	<project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="los" />
 	<project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="los" />
 	<project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="los" />
