@@ -17,7 +17,7 @@
 
 	<default remote="aosp" />
 
-	<!-- <include name="snippets/aosp.xml" /> -->
+	<include name="snippets/aosp.xml" />
 	<include name="snippets/gemini.xml" />
 	<include name="snippets/rremix.xml" />
 	<include name="snippets/los.xml" />
