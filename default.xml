@@ -13,7 +13,8 @@
 			revision="refs/tags/android-7.1.2_r36"
 			sync-c="true"
 			sync-f="true"
-			sync-j="8" />
+			sync-j="8" 
+		clone-depth="1" />
 
 	<default remote="aosp" />
 
